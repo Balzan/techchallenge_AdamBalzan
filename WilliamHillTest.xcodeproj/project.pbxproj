@@ -7,13 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E022D0601FA0974A00EE75AA /* staticData.json in Resources */ = {isa = PBXBuildFile; fileRef = E022D05F1FA0931900EE75AA /* staticData.json */; };
+		E062DDFE1F9F4751006DB10E /* clear-day.png in Sources */ = {isa = PBXBuildFile; fileRef = E062DDFA1F9F4457006DB10E /* clear-day.png */; };
+		E062DDFF1F9F4751006DB10E /* clear-night.png in Sources */ = {isa = PBXBuildFile; fileRef = E062DDFC1F9F4457006DB10E /* clear-night.png */; };
+		E062DE001F9F4751006DB10E /* cloudy.png in Sources */ = {isa = PBXBuildFile; fileRef = E062DDF51F9F4457006DB10E /* cloudy.png */; };
+		E062DE011F9F4751006DB10E /* fog.png in Sources */ = {isa = PBXBuildFile; fileRef = E062DDF71F9F4457006DB10E /* fog.png */; };
+		E062DE021F9F4751006DB10E /* partly-cloudy-day.png in Sources */ = {isa = PBXBuildFile; fileRef = E062DDFD1F9F4458006DB10E /* partly-cloudy-day.png */; };
+		E062DE031F9F4751006DB10E /* partly-cloudy-night.png in Sources */ = {isa = PBXBuildFile; fileRef = E062DDF81F9F4457006DB10E /* partly-cloudy-night.png */; };
+		E062DE041F9F4751006DB10E /* rain.png in Sources */ = {isa = PBXBuildFile; fileRef = E062DDF91F9F4457006DB10E /* rain.png */; };
+		E062DE051F9F4751006DB10E /* sleet.png in Sources */ = {isa = PBXBuildFile; fileRef = E062DDF61F9F4457006DB10E /* sleet.png */; };
+		E062DE061F9F4751006DB10E /* snow.png in Sources */ = {isa = PBXBuildFile; fileRef = E062DDF41F9F4457006DB10E /* snow.png */; };
+		E062DE071F9F4751006DB10E /* wind.png in Sources */ = {isa = PBXBuildFile; fileRef = E062DDFB1F9F4457006DB10E /* wind.png */; };
+		E062DE091F9F4B28006DB10E /* HourlyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E062DE081F9F4B28006DB10E /* HourlyTableViewController.swift */; };
+		E081DF981F9F514200FF0349 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E081DF971F9F514200FF0349 /* WeatherCell.swift */; };
+		E081DFFF1F9F5B1E00FF0349 /* DailyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E081DFFE1F9F5B1E00FF0349 /* DailyTableViewController.swift */; };
+		E081E0011F9F5C1A00FF0349 /* DailyWeatherModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E081E0001F9F5C1A00FF0349 /* DailyWeatherModal.swift */; };
+		E081E0061F9F63F700FF0349 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E081E0051F9F63F700FF0349 /* DetailsViewController.swift */; };
 		E0F631F71F9F367900471E05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F631F61F9F367900471E05 /* AppDelegate.swift */; };
-		E0F631F91F9F367900471E05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F631F81F9F367900471E05 /* ViewController.swift */; };
+		E0F631F91F9F367900471E05 /* CurrentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F631F81F9F367900471E05 /* CurrentViewController.swift */; };
 		E0F631FC1F9F367900471E05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F631FA1F9F367900471E05 /* Main.storyboard */; };
 		E0F631FE1F9F367900471E05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F631FD1F9F367900471E05 /* Assets.xcassets */; };
 		E0F632011F9F367900471E05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F631FF1F9F367900471E05 /* LaunchScreen.storyboard */; };
 		E0F6320C1F9F367A00471E05 /* WilliamHillTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F6320B1F9F367A00471E05 /* WilliamHillTestTests.swift */; };
 		E0F632171F9F367A00471E05 /* WilliamHillTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F632161F9F367A00471E05 /* WilliamHillTestUITests.swift */; };
+		E0F632251F9F382F00471E05 /* DarkSkyDataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F632241F9F382F00471E05 /* DarkSkyDataRequest.swift */; };
+		E0F632591F9F3B8900471E05 /* WeatherModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F632581F9F3B8900471E05 /* WeatherModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +52,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E022D05F1FA0931900EE75AA /* staticData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = staticData.json; sourceTree = "<group>"; };
+		E062DDF41F9F4457006DB10E /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		E062DDF51F9F4457006DB10E /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudy.png; sourceTree = "<group>"; };
+		E062DDF61F9F4457006DB10E /* sleet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleet.png; sourceTree = "<group>"; };
+		E062DDF71F9F4457006DB10E /* fog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fog.png; sourceTree = "<group>"; };
+		E062DDF81F9F4457006DB10E /* partly-cloudy-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "partly-cloudy-night.png"; sourceTree = "<group>"; };
+		E062DDF91F9F4457006DB10E /* rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rain.png; sourceTree = "<group>"; };
+		E062DDFA1F9F4457006DB10E /* clear-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-day.png"; sourceTree = "<group>"; };
+		E062DDFB1F9F4457006DB10E /* wind.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wind.png; sourceTree = "<group>"; };
+		E062DDFC1F9F4457006DB10E /* clear-night.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-night.png"; sourceTree = "<group>"; };
+		E062DDFD1F9F4458006DB10E /* partly-cloudy-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "partly-cloudy-day.png"; sourceTree = "<group>"; };
+		E062DE081F9F4B28006DB10E /* HourlyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourlyTableViewController.swift; sourceTree = "<group>"; };
+		E081DF971F9F514200FF0349 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
+		E081DFFE1F9F5B1E00FF0349 /* DailyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTableViewController.swift; sourceTree = "<group>"; };
+		E081E0001F9F5C1A00FF0349 /* DailyWeatherModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWeatherModal.swift; sourceTree = "<group>"; };
+		E081E0051F9F63F700FF0349 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		E0F631F31F9F367900471E05 /* WilliamHillTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WilliamHillTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F631F61F9F367900471E05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0F631F81F9F367900471E05 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0F631F81F9F367900471E05 /* CurrentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentViewController.swift; sourceTree = "<group>"; };
 		E0F631FB1F9F367900471E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0F631FD1F9F367900471E05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0F632001F9F367900471E05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +81,8 @@
 		E0F632121F9F367A00471E05 /* WilliamHillTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WilliamHillTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F632161F9F367A00471E05 /* WilliamHillTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WilliamHillTestUITests.swift; sourceTree = "<group>"; };
 		E0F632181F9F367A00471E05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F632241F9F382F00471E05 /* DarkSkyDataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyDataRequest.swift; sourceTree = "<group>"; };
+		E0F632581F9F3B8900471E05 /* WeatherModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +110,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E062DDF31F9F4441006DB10E /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				E062DDFA1F9F4457006DB10E /* clear-day.png */,
+				E062DDFC1F9F4457006DB10E /* clear-night.png */,
+				E062DDF51F9F4457006DB10E /* cloudy.png */,
+				E062DDF71F9F4457006DB10E /* fog.png */,
+				E062DDFD1F9F4458006DB10E /* partly-cloudy-day.png */,
+				E062DDF81F9F4457006DB10E /* partly-cloudy-night.png */,
+				E062DDF91F9F4457006DB10E /* rain.png */,
+				E062DDF61F9F4457006DB10E /* sleet.png */,
+				E062DDF41F9F4457006DB10E /* snow.png */,
+				E062DDFB1F9F4457006DB10E /* wind.png */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		E081E0021F9F62BA00FF0349 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E081DF971F9F514200FF0349 /* WeatherCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E081E0031F9F62C200FF0349 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E081E0051F9F63F700FF0349 /* DetailsViewController.swift */,
+				E0F631F81F9F367900471E05 /* CurrentViewController.swift */,
+				E081DFFE1F9F5B1E00FF0349 /* DailyTableViewController.swift */,
+				E062DE081F9F4B28006DB10E /* HourlyTableViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E081E0041F9F62D100FF0349 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0F632581F9F3B8900471E05 /* WeatherModal.swift */,
+				E081E0001F9F5C1A00FF0349 /* DailyWeatherModal.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		E0F631EA1F9F367900471E05 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +178,12 @@
 		E0F631F51F9F367900471E05 /* WilliamHillTest */ = {
 			isa = PBXGroup;
 			children = (
+				E081E0041F9F62D100FF0349 /* Models */,
+				E081E0031F9F62C200FF0349 /* View Controllers */,
+				E081E0021F9F62BA00FF0349 /* Cells */,
+				E062DDF31F9F4441006DB10E /* Icons */,
 				E0F631F61F9F367900471E05 /* AppDelegate.swift */,
-				E0F631F81F9F367900471E05 /* ViewController.swift */,
+				E0F632241F9F382F00471E05 /* DarkSkyDataRequest.swift */,
 				E0F631FA1F9F367900471E05 /* Main.storyboard */,
 				E0F631FD1F9F367900471E05 /* Assets.xcassets */,
 				E0F631FF1F9F367900471E05 /* LaunchScreen.storyboard */,
@@ -111,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				E0F6320B1F9F367A00471E05 /* WilliamHillTestTests.swift */,
+				E022D05F1FA0931900EE75AA /* staticData.json */,
 				E0F6320D1F9F367A00471E05 /* Info.plist */,
 			);
 			path = WilliamHillTestTests;
@@ -242,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E022D0601FA0974A00EE75AA /* staticData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +346,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0F631F91F9F367900471E05 /* ViewController.swift in Sources */,
+				E062DDFE1F9F4751006DB10E /* clear-day.png in Sources */,
+				E062DDFF1F9F4751006DB10E /* clear-night.png in Sources */,
+				E062DE001F9F4751006DB10E /* cloudy.png in Sources */,
+				E062DE011F9F4751006DB10E /* fog.png in Sources */,
+				E062DE021F9F4751006DB10E /* partly-cloudy-day.png in Sources */,
+				E062DE031F9F4751006DB10E /* partly-cloudy-night.png in Sources */,
+				E062DE041F9F4751006DB10E /* rain.png in Sources */,
+				E081DF981F9F514200FF0349 /* WeatherCell.swift in Sources */,
+				E062DE051F9F4751006DB10E /* sleet.png in Sources */,
+				E062DE061F9F4751006DB10E /* snow.png in Sources */,
+				E081E0011F9F5C1A00FF0349 /* DailyWeatherModal.swift in Sources */,
+				E062DE091F9F4B28006DB10E /* HourlyTableViewController.swift in Sources */,
+				E062DE071F9F4751006DB10E /* wind.png in Sources */,
+				E081E0061F9F63F700FF0349 /* DetailsViewController.swift in Sources */,
+				E0F631F91F9F367900471E05 /* CurrentViewController.swift in Sources */,
+				E0F632251F9F382F00471E05 /* DarkSkyDataRequest.swift in Sources */,
+				E0F632591F9F3B8900471E05 /* WeatherModal.swift in Sources */,
+				E081DFFF1F9F5B1E00FF0349 /* DailyTableViewController.swift in Sources */,
 				E0F631F71F9F367900471E05 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,10 +531,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q7E8WFH6X5;
+				DEVELOPMENT_TEAM = LZHDTB5DTR;
 				INFOPLIST_FILE = WilliamHillTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Balzansblog.WestpacWeatherTest.WilliamHillTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Balzansblog.WilliamHillTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,10 +546,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Q7E8WFH6X5;
+				DEVELOPMENT_TEAM = LZHDTB5DTR;
 				INFOPLIST_FILE = WilliamHillTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.Balzansblog.WestpacWeatherTest.WilliamHillTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Balzansblog.WilliamHillTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
