@@ -53,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		E022D05F1FA0931900EE75AA /* staticData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = staticData.json; sourceTree = "<group>"; };
+		E022D0611FA09E0400EE75AA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E062DDF41F9F4457006DB10E /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
 		E062DDF51F9F4457006DB10E /* cloudy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloudy.png; sourceTree = "<group>"; };
 		E062DDF61F9F4457006DB10E /* sleet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sleet.png; sourceTree = "<group>"; };
@@ -188,6 +189,7 @@
 				E0F631FD1F9F367900471E05 /* Assets.xcassets */,
 				E0F631FF1F9F367900471E05 /* LaunchScreen.storyboard */,
 				E0F632021F9F367900471E05 /* Info.plist */,
+				E022D0611FA09E0400EE75AA /* README.md */,
 			);
 			path = WilliamHillTest;
 			sourceTree = "<group>";
